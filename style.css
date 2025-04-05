@@ -3,15 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(240, 240, 240);
 }
-header{
+
+header {
     background-color: rgb(255, 255, 255);
     height: auto;
     width: 100%;
 }
-.header-cont{
+
+.header-cont {
     max-width: 1500px;
     display: flex;
     align-items: center;
@@ -21,73 +24,88 @@ header{
     padding-bottom: 15px;
     overflow: hidden;
 }
-.header-cont a{
+
+.header-cont a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding: 10px 20px 10px 20px;
 }
-.link- a:first-child{
+
+.link- a:first-child {
     color: white;
     background-color: rgb(97, 0, 0);
     border-radius: 60px;
 }
-.link- a:hover{
+
+.link- a:hover {
     background-color: rgb(97, 0, 0);
     border-radius: 60px;
     color: white;
 }
-.link- select:hover{
+
+.link- select:hover {
     background-color: rgb(97, 0, 0);
     border-radius: 60px;
     color: white;
 }
-.logins a:hover{
+
+.logins a:hover {
     background-color: rgb(97, 0, 0);
     border-radius: 60px;
     color: white;
 }
-.logins select:hover{
+
+.logins select:hover {
     background-color: rgb(97, 0, 0);
 
     color: white;
 }
 
-.logo-{
+.logo- {
     height: 57px;
     margin-right: 60px;
-    
+
 }
-.logo- img{
+
+.logo- img {
     width: auto;
     height: 100%;
 }
-.link-{
+
+.link- {
     display: flex;
     align-items: center;
 }
-.link- select, .logins select{
+
+.link- select,
+.logins select {
     border: none;
     transition: 0.2s ease;
     appearance: none;
-    -webkit-appearance: none; /* Safari/Chrome */
-    -moz-appearance: none; /* Firefox */
+    -webkit-appearance: none;
+    /* Safari/Chrome */
+    -moz-appearance: none;
+    /* Firefox */
     background: white url('data:image/svg+xml;utf8,<svg fill="black" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center;
 }
-.link- select{
+
+.link- select {
     padding: 12px 30px 12px 20px;
-    
+
 }
-.logins select{
+
+.logins select {
     padding: 12px 10px 12px 20px;
     border-radius: 5px;
     background-color: rgb(236, 236, 236);
 }
-.options-{
+
+.options- {
     margin-left: 33px;
 }
 
 
-.header-sidebar{
+.header-sidebar {
     background-color: green;
     width: auto;
     height: 100vh;
@@ -97,26 +115,32 @@ header{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    color: white; /* Text color */
+    color: white;
+    /* Text color */
     display: none;
-    
+
 }
+
 .header-sidebar a {
     color: white;
     text-decoration: none;
     padding: 10px;
     width: 100%;
-    display: block; /* Makes the links stack vertically */
+    display: block;
+    /* Makes the links stack vertically */
 }
+
 .header-sidebar a:hover {
     background-color: darkgreen;
 }
-.body-container{
+
+.body-container {
     height: auto;
     overflow: hidden;
     margin: 30px auto;
 }
-.first-content{
+
+.first-content {
     background-color: rgb(189, 189, 189);
     height: 650px;
     max-width: 1650px;
@@ -125,7 +149,8 @@ header{
     overflow: hidden;
     display: flex;
 }
-.sec-content{
+
+.sec-content {
     max-width: 1650px;
     margin: auto;
     border-radius: 20px;
@@ -134,40 +159,65 @@ header{
     align-items: center;
     justify-content: center;
 }
-.sec-content h2{
+
+.sec-content h2 {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.image-{
+.image- {
     background-color: greenyellow;
     height: 100%;
     width: 60%;
 }
-.text-{
-    background-color: red;
+
+.image- img {
+    width: 100%;
+    height: 100%;
+}
+
+.text- {
+    background-image: url(vecteezy_embrace-the-raw-beauty-of-concrete-grunge-texture-enhance_24149091.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100%;
     width: 40%;
     display: flex;
     align-items: center;
     padding: 70px;
 }
-.text- h1, .text- p{
+
+.text- h1,
+.text- p {
     margin-bottom: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
 }
-.select-div{
+.select-div h1{
+    color: black;
+}
+
+.select-div {
     background-color: white;
     height: 200px;
-    width: 60%;
+    width: 100%;
     border-radius: 20px;
     padding: 20px;
 }
-.images{
+
+.images {
     background-color: green;
     height: 100px;
-    width: 200px;
+    width: 100px;
 }
-.all-images-{
+.images img{
+    width: auto;
+    height: 100%;
+}
+
+.all-images- {
     display: flex;
     gap: 20px;
     margin: auto;
@@ -176,9 +226,11 @@ header{
 
 @media screen and (max-width: 768px) {
     .header-sidebar {
-      width: 40%;
+        width: 40%;
     }
-    .link- a, .link- select{
+
+    .link- a,
+    .link- select {
         display: none;
     }
-  }
+}
