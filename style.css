@@ -133,11 +133,21 @@ header {
 .header-sidebar a:hover {
     background-color: darkgreen;
 }
-
+.body-container1 {
+    height: auto;
+    overflow: hidden;
+    margin: 30px auto;
+}
 .body-container {
     height: auto;
     overflow: hidden;
     margin: 30px auto;
+}
+.body-container3 {
+    height: auto;
+    overflow: hidden;
+    margin: 30px auto;
+    background-color: rgb(255, 255, 255);
 }
 
 .first-content {
@@ -154,10 +164,34 @@ header {
     max-width: 1650px;
     margin: auto;
     border-radius: 20px;
+    padding: 50px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Franklin Gothic Medium';
+}
+.third-content {
+    max-width: 1100px;
+    padding: 20px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium';
+}
+.values{
+    padding: 50px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.value-cont{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
 }
 
 .sec-content h2 {
@@ -166,7 +200,6 @@ header {
 }
 
 .image- {
-    background-color: greenyellow;
     height: 100%;
     width: 60%;
 }
@@ -208,7 +241,7 @@ header {
 }
 
 .images {
-    background-color: green;
+    
     height: 100px;
     width: 100px;
 }
@@ -227,6 +260,24 @@ header {
 @media screen and (max-width: 768px) {
     .header-sidebar {
         width: 40%;
+    }
+    .first-content {
+       display: block;
+        height: auto;
+       
+    }
+    .image- {
+        
+        height: auto;
+        width: 100%;
+    }
+    .text- {
+       
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 70px;
     }
 
     .link- a,
