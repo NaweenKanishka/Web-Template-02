@@ -119,7 +119,8 @@ header {
 }
 
 .link- select {
-    padding: 12px 30px 12px 20px;
+    padding: 12px 10px 12px 20px;
+    font-size: 16px;
 
 }
 
@@ -159,6 +160,8 @@ header {
     background-color: rgba(0, 255, 0, 0.137);
     border: none;
     border-radius: 10px;
+}
+.link- option{
 }
 
 #toggleSidebar {
