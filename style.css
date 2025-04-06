@@ -15,6 +15,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 1000;
 }
 
 
@@ -27,6 +28,7 @@ header {
     padding-top: 15px;
     padding-bottom: 15px;
     overflow: hidden;
+    
 }
 
 .header-cont a {
@@ -416,6 +418,16 @@ footer {
     display: flex;
     flex-grow: 1;
 }
+.body-container,
+.body-container1,
+.body-container3,
+.body-container5,
+.body-container6 {
+   
+    transform: translateY(30px);
+    animation: fadeSlideUp 0.8s ease-out forwards;
+}
+
 
 @media screen and (max-width: 768px) {
     .header-sidebar {
