@@ -28,7 +28,7 @@ header {
     padding-top: 15px;
     padding-bottom: 15px;
     overflow: hidden;
-    
+
 }
 
 .header-cont a {
@@ -182,7 +182,7 @@ header {
 .body-container1 {
     height: auto;
     overflow: hidden;
-    margin: 120px 0 0 0;
+    margin: 90px 0 0 0;
     transition: 0.5s;
 }
 
@@ -216,25 +216,17 @@ header {
 }
 
 .first-content {
-
-    height: 650px;
-    max-width: 1650px;
     margin: auto;
+    height: 750px;
+    max-width: 1650px;
+    background-color: rgb(51, 51, 51);
     border-radius: 20px;
     overflow: hidden;
     display: flex;
     transition: 0.5s;
-    
+
 }
 
-.first-contentt {
-
-    height: 650px;
-    max-width: 1650px;
-    margin: auto;
-    overflow: hidden;
-    display: flex;
-}
 
 .fourth-content {
     height: 650px;
@@ -266,13 +258,28 @@ header {
     justify-content: center;
 }
 
+.fifth-content {
+    max-width: 1100px;
+    padding: 50px 30px 50px 30px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.package-cont {
+    display: flex;
+    gap: 10px;
+}
+
 .values {
     margin: 50px;
     gap: 20px;
     justify-content: center;
     align-items: center;
     display: flex;
-   
+
 }
 
 .value-cont {
@@ -308,6 +315,12 @@ header {
     font-size: 50px;
 }
 
+.packages {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+}
+
 .button- button:hover {
     background-color: green;
     color: white;
@@ -329,7 +342,7 @@ header {
 }
 
 .image- img {
-    width: 100%;
+    width: auto;
     height: 100%;
 }
 
@@ -416,12 +429,13 @@ footer {
     display: flex;
     flex-grow: 1;
 }
+
 .body-container,
 .body-container1,
 .body-container3,
 .body-container5,
 .body-container6 {
-   
+
     transform: translateY(30px);
     animation: fadeSlideUp 0.8s ease-out forwards;
 }
@@ -461,6 +475,11 @@ footer {
         height: auto;
     }
 
+    .image- img {
+        width: 100%;
+        height: auto;
+    }
+
     .values {
         flex-direction: column;
     }
@@ -477,19 +496,37 @@ footer {
     .logins {
         display: none;
     }
+
     @keyframes fadeSlideUp {
         from {
             opacity: 0;
             transform: translateY(30px);
         }
+
         to {
             opacity: 1;
             transform: translateY(0);
         }
     }
-    
+
     .body-container {
         animation: fadeSlideUp 1s ease-out forwards;
     }
-    
+
+    .first-content {
+
+
+        border-radius: 0;
+
+
+    }
+    .package-cont {
+        flex-direction: column;
+        
+    }
+    .packages {
+        height: 300px;
+        width: 500px;
+    }
+
 }
