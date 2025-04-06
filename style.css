@@ -131,16 +131,21 @@ header {
 
 .header-sidebar {
     background-color: green;
-    width: auto;
+    width: 250px;
     height: 100vh;
     position: fixed;
     top: 0;
-    right: 0;
-    display: none;
+    right: -300px;
+    display: flex;
     flex-direction: column;
     padding: 20px;
     color: white;
+    transition: right 0.3s ease;
+    z-index: 1000;
+}
 
+.header-sidebar.show {
+    right: 0;
 }
 .link-in-sidebar button{
 width: 100%;
@@ -401,24 +406,15 @@ footer{
         padding: 10px 15px;
         border-radius: 5px;}
 
-    .first-content {
-       display: block;
-        height: auto;
-       
-    }
-    .image- {
-        
-        height: auto;
-        width: 100%;
-    }
-    .text- {
-       
-        height: auto;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        padding: 70px;
-    }
+        .first-content {
+            flex-direction: column;
+            height: auto;
+        }
+    
+        .image-, .text- {
+            width: 100%;
+            height: auto;
+        }
     
 
     .link- a,
