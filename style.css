@@ -398,9 +398,7 @@ footer {
     width: 100%;
     display: flex;
     max-width: 1650px;
-    margin: auto;
-
-
+    margin: 50px auto;
 }
 
 .copyright {
