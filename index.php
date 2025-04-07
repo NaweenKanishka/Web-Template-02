@@ -75,7 +75,7 @@ $bottomabout = $bottomaboutResult->fetch_assoc();
 
             </div>
             <div class="logins">
-                <a href="login-index.html">Sign in</a>
+                <a href="login-index.php">Sign in</a>
                 <a href="">Register</a>
 
             </div>
@@ -94,9 +94,9 @@ $bottomabout = $bottomaboutResult->fetch_assoc();
                 <div>
                     <h1>Naween Kanishka</h1>
                     <p><?php echo $about['content']; ?></p>
-                    <div class="select-div">
+                    <!-- <div class="select-div">
 
-                    </div>
+                    </div> -->
                 </div>
 
             </div>
@@ -178,7 +178,7 @@ $bottomabout = $bottomaboutResult->fetch_assoc();
     </div>
 
     <div class="body-container6">
-        <div class="first-content">
+        <div class="first-content11">
 
             <div class="text-">
                 <div>
@@ -188,7 +188,7 @@ $bottomabout = $bottomaboutResult->fetch_assoc();
 
             </div>
             <div class="image-">
-                <img src="Images/roboimage.jpg" alt="">
+                <img src="Images/vecteezy_graphic-designer-s-workspace_1268226.jpg" alt="">
             </div>
 
         </div>
