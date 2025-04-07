@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(211, 211, 211);
+}
+.body-container{
+    display: flex;
+    margin: auto;
+   align-items: center;
+   justify-content: center;
+    
+    height: 100vh;
+}
+.content-{
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 400px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.f-div{
+    display: flex;
+    flex-direction: column;
+}
+.f-div a{
+    text-decoration: none;
+}
+.f-div a:hover{
+    text-decoration: underline;
+}
+.visit-page{
+    margin-top: 10px;
+}
+.f-div2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.f-div2 p{
+    padding: 0 5px;
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+    font-size: 12px;
+}
+.f-div2 a{
+    text-align: center;
+    margin-top: 6px;
+    font-size: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.f-div2 a:hover{
+    color: red;
+}
+.f-div2 input, .f-div2 button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 3px 0;
+}
+.f-div2 button{
+    position: relative;
+    overflow: hidden;
+    cursor: progress;
+    background-color: rgb(0, 8, 121);
+    color: white;
+    transition: 0.3s;
+}
+.f-div2 button:hover{
+    background-color: rgb(0, 3, 41);
+}
+.f-div2 button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: rgb(0, 67, 155);
+    z-index: 1;
+    transition: width 0.8s ease;
+}
+.f-div2 button:hover::before {
+    width: 100%;
+}
+
+.f-div2 button span {
+    position: relative;
+    z-index: 2;
+}
+.f-div2 input{
+    border: 1px solid rgb(199, 199, 199);
+}
+.f-div-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.f-div-image img{
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 600px) {
+    .content- {
+      width: 300px;
+    }
+  }

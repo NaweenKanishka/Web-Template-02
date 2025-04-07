@@ -37,21 +37,7 @@ header {
     padding: 10px 20px 10px 20px;
 }
 
-.header-sidebar {
-    background-color: green;
-    width: 250px;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: -300px;
-    /* sidebar starts hidden off-screen */
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    color: white;
-    transition: right 0.3s ease;
-    z-index: 1000;
-}
+
 
 .header-sidebar.hidden {
     right: -300px;
